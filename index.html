@@ -4,6 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
     <link href="https://cdnjs.cloundflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"/>
+
     <title>Anderson Brito - Dev Frontend.</title>
 </head>
 <body>
@@ -23,9 +26,9 @@
 
     <section class="home">
         <div class="informacoes">
-            <div class="titulo-home">
+            <div class="titulo">
                 <h1>Olá! Sou Anderson Brito</h1>
-            </div><!--titulo-home-->
+            </div><!--titulo-->
             <div class="texto">
                 <p>Um desenvolvedor frontend em formação apaixonado por tecnologia.</p>
                 <p>Estou sempre me desafiando com novos projetos e buscando feedback na comunidade de programação, além de compartilhar meus conhecimentos. 😁</p>
@@ -54,8 +57,30 @@
                 </li>
             </ul>
         </div><!--informacoes-->
+        <div class="container-foto">
+            <div class="foto sombra-interna">
+                <img src="./src/imagens/foto-perfil.jpg" alt="foto de perfil de Anderson Brito">
+            </div><!--foto sombra-interna-->
+        </div><!--container-foto-->
     </section><!--home-->
-    <section class="projetos" id="projetos"></section><!--projetos-->
+    <section class="projetos" id="projetos">
+        <h2 class="titulo">Meus projetos</h2>
+
+        <div class="container-projetos">
+            <div class="projeto-ativo">
+                <a href="https://github.com/brito-and/Danki-Code/tree/main/Projeto%20Final" target="_blank">
+                    <img src="./src/imagens/MeuProjetoFinal.png" alt="Projeto Final da Danki-Code">
+
+                    <h3>Projeto Danki-Code</h3>
+
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito com HTML, CSS e JavaScript</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section><!--projetos-->
     
 </body>
 </html>
