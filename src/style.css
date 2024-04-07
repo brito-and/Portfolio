@@ -100,8 +100,8 @@ body{
     margin-bottom: 10px;
 }
 
-.home .redes-sociais{
-    display: flex;
+.home .redes-sociais li{
+    display: inline-block;
     gap: 20px;
 }
 
