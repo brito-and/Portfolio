@@ -97,7 +97,7 @@ body{
 .home .informacoes p{
     font-family: "Relawey", sans-serif;
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .home .redes-sociais li{
@@ -185,7 +185,7 @@ body{
 }
 
 .projetos .projeto .informacoes-projeto{
-    background-color: #040203;
+    background-color: #0402033b;
     position: absolute;
     top: 0;
     width: 100%;
@@ -194,6 +194,28 @@ body{
     opacity: 0;
     transition: 0.3s;
     padding: 20px;
+}
+
+.btn-projeto {
+    position: absolute;
+    bottom: 48px;
+}
+
+.btn-projeto .github{
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color:  #303030;
+    border-radius: 5px;
+    color: #fff;
+    
+}
+
+.btn-projeto .website{
+    margin-bottom: 10px;
+    padding: 5px 0px;
+    background-color: #303030;
+    border-radius: 5px;
+    color: #fff;
 }
 
 .projetos .container-projetos .projeto:hover .informacoes-projeto{
@@ -222,7 +244,7 @@ body{
     transition: 0.3s;
 }
 
-.projeto .btn-mostrar-projetos.remover{
+.projetos .btn-mostrar-projetos.remover{
     display: none;
 }
 
