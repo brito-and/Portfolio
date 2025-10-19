@@ -161,7 +161,7 @@ body{
 
 .projetos .projeto{
     max-width: 260px;
-    max-height: 500px;
+    height: 500px;
     position: relative;
     display: none;
 }
